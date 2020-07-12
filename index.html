@@ -1,7 +1,129 @@
-<!DOCTYPE html>
-<html>
-<body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
-</body>
-</html>
+---
+title: 智能服务机器人实验室 
+
+labNameBig: 智能服务机器人实验室
+labNameSmall: AET, SCS
+labNameDescript: 嘤嘤嘤
+layout: default
+---
+
+<section>
+    <!--Swiper-->
+    <div class="swiper-container swiper-slider" data-autoplay="5000" data-slide-effect="fade" data-loop="false">
+        <div class="jumbotron text-center">
+            <h1>{{ page.labNameBig }}</h1>
+            <hr>
+            <h3>{{ page.labNameSmall }}</h3>
+            <p class="big"><em>{{ page.labNameDescript }}</em> </p>
+            <!--<div class='button-group-variant'> <a class='button button-default round-xl button-sm' href='https://www.templatemonster.com/website-templates/58434.html'>Buy Now</a> <a class='button button-default round-xl button-sm' href='#'>View Features</a></div>-->
+        </div>
+        <div class="swiper-wrapper">
+            <div class="swiper-slide" data-slide-bg="images/header-2.jpg">
+                <div class="swiper-slide-caption"></div>
+            </div>
+            <div class="swiper-slide" data-slide-bg="images/header-5.jpg">
+                <div class="swiper-slide-caption"></div>
+            </div>
+            <div class="swiper-slide" data-slide-bg="images/header-6.jpg">
+                <div class="swiper-slide-caption"></div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<main class="page-content">
+    <!--Start section-->
+    <section class="well well-sm well-inset-2 text-center">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-xl-12">
+                    <h1 class="font-weight-bold text-center">About Us</h1>
+                    <p class="lead big">
+                        课题组近年来已经获得数千万元的科研资源投入，包括教育部、国家自然科学基金、上海市科委重大科技专项、复旦大学211专项，以及校企合作项目30余项，产生了一大批具有原创性、自主知识产权的研究成果，并研制了 “自主心智发育机器人－复旦I号”、 “复娃”、“爱家一号”、“海宝机器人”、“中西医健康管理机器人”等6代智能服务机器人。
+                    </p>
+                </div>
+            </div>
+
+    <!--Start section-->
+    <section class="well well-sm well-inset-2 text-center text-lg-left">
+        <div class="container">
+            <h1 class="font-weight-bold text-center">Latest Publications</h1>
+            <div class="row row-30">
+                {% assign count=0%}
+                {% for post in site.posts %}
+                {% if post.type == 'paper' and count<3%}
+                {% assign count = count | plus:1 %}
+                <div class="col-lg-4">
+                    <article class="thumbnail thumbnail-4"><img src="{{ BASE_PATH }}/images/paper_teser/{{ post.teser }}" width=400px height=200px  alt="">
+                        <div class="caption">
+                            <h4><a href="{{ post.url }}">{{ post.title }}</a></h4>
+                            <p class="text-dark-variant-2">{{ post.author }}</p>
+                            <div class="blog-info">
+                                <div class="pull-md-left">
+                                    <time class="meta fa-calendar" datetime="2019">{{ post.year }}
+                                        {{ post.month }}</time>
+                                </div><a class="button-link" href="{{ post.url }}">Read More</a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+                {% endif %}
+                {% endfor %}
+            </div>
+        </div>
+    </section>
+    <!--End section-->
+
+    <!--Start section-->
+    <section class="well well-sm well-inset-2 text-center">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-xl-6">
+                    <h1 class="font-weight-bold text-center">Collaboration</h1>
+                </div>
+            </div>
+            <div class="row margin-1">
+                <!--Owl Carousel-->
+                <div class="owl-carousel" data-autoplay="true" data-items="1" data-md-items="2" data-sm-items="1"
+                    data-lg-items="3" data-nav="true" data-margin="30" data-loop="true">
+                    <blockquote class="quote-2"><img class="img-rounded" href="http://english.siat.cas.cn/" src="images/SIATlogo.png" alt="">
+                        <h6>
+                            <cite>SIAT</cite>
+                        </h6>
+                        <p class="heading-6 font-italic font-base text-base">
+                            <q>SIAT aims to enhance the innovative capacity of the equipment manufacturing and service industries in the Guangdong-Hong Kong region, promote the development of emerging industries possessing their own proprietary intellectual property, and become a world-class industrial research institute.</q>
+                        </p>
+                    </blockquote>
+                    <blockquote class="quote-2"><img class="img-rounded"  src="images/CUHKlogo.png" alt="" href="http://mmlab.ie.cuhk.edu.hk/">
+                        <h6>
+                            <cite>CUHK</cite>
+                        </h6>
+                        <p class="heading-6 font-italic font-base text-base">
+                            <q>The CUHK Multimedia Lab (MMLab) is one of the pioneering institutes on deep learning. In GPU Technology Conference (GTC) 2016, a world-wide technology summit, MMlab is recognized as one of the top ten AI pioneers, and listed together with top research groups in the world (e.g. MIT, Stanford, Berkeley, and Univ. of Toronto). Today, it remains one of the most active research labs in computer vision and deep learning, publishing over 40 papers on top conferences (CVPR/ICCV/ECCV/NIPS) every year.</q>
+                        </p>
+                    </blockquote>
+                    <blockquote class="quote-2" ><img class="img-rounded" href="https://www.sensetime.com/" src="images/Sensetimelogo.png" alt="">
+                        <h6>
+                            <cite href="https://www.sensetime.com/">SenseTime Inc.</cite>
+                        </h6>
+                        <p class="heading-6 font-italic font-base text-base">
+                            <q>SenseTime is a global company focused on developing innovative AI technologies that positively contribute to economies, society and humanity. With roots in the academic world, SenseTime invest in fundamental research to further understanding and advance the state of art in AI technology. SenseTime is a global team of talented individuals with over half dedicated to research and development activities. This has made it a leading global AI algorithm provider and one of the most prolific contributors of related papers in the research community.</q>
+                        </p>
+                    </blockquote>
+                    <blockquote class="quote-2"><img class="img-rounded" src="images/NTUlogo.png" href="http://scse.ntu.edu.sg/Pages/Home.aspx" alt="">
+                        <h6>
+                            <cite>NTU</cite>
+                        </h6>
+                        <p class="heading-6 font-italic font-base text-base">
+                            <q>The Nanyang Technological University is the second oldest public autonomous research university in Singapore. With a population of 33,500 students and 10,000 faculty and staff, NTU is the second largest university in Singapore.  </q>
+                        </p>
+                    </blockquote>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--End section-->
+</main>
+
+
+
