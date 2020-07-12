@@ -11624,10 +11624,10 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 }
 
 .rd-navbar-brand .brand-name {
-	font-size: 35px;
+	font-size: 36px;
 	line-height: 40px;
 	font-weight: 400;
-	padding-left: 120px;
+	padding-left: 0px;
 	font-family: Pacifico, sans-serif;
 	color: #343842;
 }
