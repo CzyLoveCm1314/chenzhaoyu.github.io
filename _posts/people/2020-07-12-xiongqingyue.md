@@ -1,21 +1,21 @@
 ---
 # This file must follow the rule that filename is year-month-day-name.md .
-name: Zhaoyu Chen # Write your name
+name: Qingyue Xiong # Write your name
 type: people #  Do not change this
-people_type : PhD Students
+people_type : Master Students
 # [Academy for Engineering & Technology, School of Computer Science, Organizer]
-showtitle: PhD Student in 2020
+showtitle: Master Student in 201X
 # [PhD Student, Master Student, Visiting Student,
 #  Professor, Assistant Professor, Associate professor,
 #  Alumni, Cooperation Professor]
-title: Zhaoyu Chen # Website Title
-profileName: zhaoyuchen.jpg  # Fixed 186 * 186
-profile: zhaoyuchenBig.jpg  # About 570 * 725
-direction : Semantic Segmentation, Computer Vision
+title: Qingyue Xiong - AET # Website Title
+profileName: xiongqingyue.jpg  # Fixed 186 * 186
+profile: xiongqingyueBig.jpg  # About 570 * 725
+direction : Medical Image Analysis Semantic segmentation
 layout: peoplepost  #  Do not change this
 # if you have the items listed below, please write here; if not, please write None.
 homepage: None
-email: 574745809@qq.com
+email: eeechobear@163.com 19210860065@fudan.edu.cn
 google : None
 github : None
 linkedin: None
@@ -29,9 +29,4 @@ institutionShort: Academy for Engineering & Technology
 # Self-introduction is described in the third person, including information such as educational experience
 ---
 
-Zhaoyu Chen is currently a prospective Phd student in AET, Fudan. He is supervised by Prof. Wenqiang Zhang. He is expected to obtain his B.Eng. degree from Shandong University, Weihai, China by 2020.
-
-
-
- 
-
+Qingyue Xiong is currently a Master student in AET, Fudan University, who is supervised by Prof. Wenqiang Zhang. She obtained her B.Eng. degree from Shanghai University, Shanghai, China in 2019.

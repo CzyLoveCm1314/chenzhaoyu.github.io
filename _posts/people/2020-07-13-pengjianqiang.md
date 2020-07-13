@@ -1,21 +1,20 @@
 ---
 # This file must follow the rule that filename is year-month-day-name.md .
-name: Zhaoyu Chen # Write your name
+name: Jianqiang Peng # Write your name
 type: people #  Do not change this
-people_type : PhD Students
+people_type : Master Students
 # [Academy for Engineering & Technology, School of Computer Science, Organizer]
-showtitle: PhD Student in 2020
-# [PhD Student, Master Student, Visiting Student,
+showtitle: Master Student in 201X
 #  Professor, Assistant Professor, Associate professor,
 #  Alumni, Cooperation Professor]
-title: Zhaoyu Chen # Website Title
-profileName: zhaoyuchen.jpg  # Fixed 186 * 186
-profile: zhaoyuchenBig.jpg  # About 570 * 725
+title: Jianqiang Peng # Website Title
+profileName: jianqiangpeng.jpg  # Fixed 186 * 186
+profile: jianqiangpengBig.jpg  # About 390 * 567
 direction : Semantic Segmentation, Computer Vision
 layout: peoplepost  #  Do not change this
 # if you have the items listed below, please write here; if not, please write None.
 homepage: None
-email: 574745809@qq.com
+email: 1498315519@qq.com
 google : None
 github : None
 linkedin: None
@@ -29,7 +28,6 @@ institutionShort: Academy for Engineering & Technology
 # Self-introduction is described in the third person, including information such as educational experience
 ---
 
-Zhaoyu Chen is currently a prospective Phd student in AET, Fudan. He is supervised by Prof. Wenqiang Zhang. He is expected to obtain his B.Eng. degree from Shandong University, Weihai, China by 2020.
 
 
 

@@ -9,7 +9,7 @@ showtitle: Professor
 #  Alumni, Cooperation Professor]
 title: Wenqiang Zhang # Website Title
 profileName: wenqiangzhang.jpg  # 186 * 186
-profile: None  # 570 * 725
+profile: wenqiangzhangBig.jpg  # 570 * 725
 direction : Robots, Artificial intelligence, Computer vision, Intelligent equipment
 layout: peoplepost  #  Do not change this
 homepage: http://faet.fudan.edu.cn/17/bb/c13532a137147/page.htm
@@ -18,7 +18,7 @@ google : None
 github : None
 linkedin: None
 institution: Academy for Engineering & Technology, School of Computer Science, Fudan University
-institutionShort: AET, SCS
+institutionShort: Academy for Engineering & Technology, School of Computer Science
 ---
 
 Dr. Wenqiang Zhang, researcher and doctoral supervisor of School of Computer Science and Technology, Fudan University, deputy dean of Intelligent Robot Research Institute of Fudan University.

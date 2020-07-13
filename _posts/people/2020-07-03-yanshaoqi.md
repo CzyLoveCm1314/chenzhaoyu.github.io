@@ -1,21 +1,21 @@
 ---
 # This file must follow the rule that filename is year-month-day-name.md .
-name: Zhaoyu Chen # Write your name
+name: Shaoqi Yan # Write your name
 type: people #  Do not change this
 people_type : PhD Students
 # [Academy for Engineering & Technology, School of Computer Science, Organizer]
-showtitle: PhD Student in 2020
+showtitle: PhD Student in 201X
 # [PhD Student, Master Student, Visiting Student,
 #  Professor, Assistant Professor, Associate professor,
 #  Alumni, Cooperation Professor]
-title: Zhaoyu Chen # Website Title
-profileName: zhaoyuchen.jpg  # Fixed 186 * 186
-profile: zhaoyuchenBig.jpg  # About 570 * 725
-direction : Semantic Segmentation, Computer Vision
+title: Shaoqi Yan # Website Title
+profileName: yanshaoqi1.jpg  # Fixed 186 * 186
+profile: yanshaoqi2.jpeg  # About 570 * 725
+direction : Computer Vision
 layout: peoplepost  #  Do not change this
 # if you have the items listed below, please write here; if not, please write None.
 homepage: None
-email: 574745809@qq.com
+email: None
 google : None
 github : None
 linkedin: None
@@ -29,9 +29,4 @@ institutionShort: Academy for Engineering & Technology
 # Self-introduction is described in the third person, including information such as educational experience
 ---
 
-Zhaoyu Chen is currently a prospective Phd student in AET, Fudan. He is supervised by Prof. Wenqiang Zhang. He is expected to obtain his B.Eng. degree from Shandong University, Weihai, China by 2020.
-
-
-
- 
-
+Shaoqi Yan is currently a Phd student in AET, Fudan University, who is supervised by Prof. Wenqiang Zhang.

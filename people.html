@@ -92,11 +92,11 @@ layout: default
     <!--Start section 4 Columns with text-->
     <section class="text-center well well-sm">
         <div class="container">
-            <h5 class="font-weight-bold text-lg-left">Academy for Engineering & Technology</h5>
+            <h5 class="font-weight-bold text-lg-left">Ph.D. Students</h5>
             <hr>
             <div class="row row-50">
                 {% for post in site.posts %}
-                {% if post.people_type == 'Academy for Engineering & Technology' %}
+                {% if post.people_type == 'PhD Students' %}
                 <div class="col-sm-6 col-lg-3">
                     <div class="thumbnail thumbnail-3"><a href="{{ post.url }}"><img  class="rounded-circle" style="width: 70%" src="{{ "images/people/" | append: post.profileName }}" alt=""></a>
                         <div class="caption margin-1">
@@ -135,11 +135,11 @@ layout: default
     <!--Start section 4 Columns with text-->
     <section class="text-center well well-sm">
         <div class="container">
-            <h5 class="font-weight-bold text-lg-left">School of Computer Science</h5>
+            <h5 class="font-weight-bold text-lg-left">Master Students</h5>
             <hr>
             <div class="row row-50">
                 {% for post in site.posts %}
-                {% if post.people_type == 'School of Computer Science' %}
+                {% if post.people_type == 'Master Students' %}
                 <div class="col-sm-6 col-lg-3">
                     <div class="thumbnail thumbnail-3"><a href="{{ post.url }}"><img  class="rounded-circle" style="width: 70%" src="{{ "images/people/" | append: post.profileName }}" alt=""></a>
                     <div class="caption margin-1">
