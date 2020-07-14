@@ -2,9 +2,9 @@
 # This file must follow the rule that filename is year-month-day-name.md.
 name: Dawei Yang
 type: people
-people_type : PhD Students
+people_type : EngD Students
 # [Academy for Engineering & Technology, School of Computer Science, Organizer]
-showtitle: PhD Student in 201X
+showtitle: EngD Student in 201X
 # [PhD Student, Master Student, Visiting Student,
 #  Professor, Assistant Professor, Associate professor,
 #  Alumni, Cooperation Professor]
