@@ -29,7 +29,7 @@ layout: default
         <div class="container">
             <ol class="breadcrumb">
                 <li><a href="{{ BASE_PATH }}/index.html">Home</a></li>
-                <li><a href="{{ BASE_PATH }}/publication.html">Publications</a></li>
+                <li><a href="{{ BASE_PATH }}/projects.html">Projects</a></li>
             </ol>
         </div>
     </section>
@@ -39,10 +39,6 @@ layout: default
                 <div class="col-12 section-border">
                     <article class="well" style="padding-top: 10px">
                         <h1 align="center">{{ page.title }}</h1>
-                        {% if page.auther == 'None'%}
-                        {% else %}
-                        <h4 style="padding-top: 20px">{{ page.author }}</h4>
-                        {% endif %}
                         <div class="blog-info">
                             <div class="pull-md-left">
                                 <time class="meta fa-calendar" datetime="2019">{{ page.year }} {{ page.month }}</time>

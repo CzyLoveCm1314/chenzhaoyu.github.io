@@ -1,7 +1,7 @@
 ---
 title:  'Automatic Tongue Image Segmentation for Real-Time Remote Diagnosis'  #  Paper title, covered by ''
 teser: li2019.png # A picture about this paper
-type:   paper #  Do not change this
+type: paper #  Do not change this
 pro_type: Segmentation #  Research Interests or Projects
 layout: post  #  Do not change this
 date:   2019-11-21 11:59:59 +0800  # paper pub data, only change year and month according to this format

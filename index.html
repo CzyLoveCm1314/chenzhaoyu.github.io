@@ -17,7 +17,7 @@ color: 	Black
             <p class="big"><em><font color="{{page.color}}">{{ page.labNameDescript }}</font></em> </p>
             <!--<div class='button-group-variant'> <a class='button button-default round-xl button-sm' href='https://www.templatemonster.com/website-templates/58434.html'>Buy Now</a> <a class='button button-default round-xl button-sm' href='#'>View Features</a></div>-->
         </div>
-        <div class="swiper-wrapper">
+        <div class="swiper-wrapper"> 
             <div class="swiper-slide" data-slide-bg="images/header-1.jpg">
                 <div class="swiper-slide-caption"></div>
             </div>
@@ -31,7 +31,40 @@ color: 	Black
     </div>
 </section>
 
+
+
 <main class="page-content">
+    <section class="well well-inset-2">
+        <div class="container">
+            <h1 class="text-center font-weight-bold">Recent News</h1>
+            <div class="row justify-content-center">
+                <div class="col-10">
+                    <!-- Bootstrap collapse-->
+                    <!-- <div class="card-group-custom card-group-corporate" id="accordion1" role="tablist"
+                        aria-multiselectable="false"> -->
+                    <!-- Bootstrap card-->
+                    <article class="card card-custom card-corporate">
+                        <div class="card-header" role="tab">
+                            <div class="card-title">
+                                {% for post in site.posts %}
+                                {% if post.title == 'The laboratory "Chinese medicine assistant robot" won the silver prize at the 46th Geneva International Invention Exhibition!' %}
+                                <a role="button"  class="collapsed"
+                                   aria-controls="accordion1Collapse1" aria-expanded="false" href="{{ post.url }}">
+                                    [April 2018] The laboratory "Chinese medicine assistant robot" won the silver prize at the 46th Geneva International Invention Exhibition! Check out here for <font class="text-primary">more details</font>.
+                                    <div class="card-arrow"></div>
+                                </a>
+                                {% endif %}
+                                {% endfor %}
+
+                            </div>
+                        </div>
+                    </article>
+                    <!-- </div> -->
+                </div>
+            </div>
+        </div>
+    </section>
+    
     <!--Start section-->
     <section class="well well-sm well-inset-2 text-center">
         <div class="container">
@@ -39,7 +72,16 @@ color: 	Black
                 <div class="col-xl-12">
                     <h1 class="font-weight-bold text-center">About Us</h1>
                     <p class="lead big">
-                        In recent years, the laboratory has obtained tens of million yuan of scientific research resources input, including the Ministry of education, the National Natural Science Foundation of China, the major science and technology projects of Shanghai Municipal Science and Technology Commission, the 211 special project of Fudan University, and more than 30 university enterprise cooperation projects. It has produced a large number of original and independent intellectual property rights research results, and has developed "Fudan I robot for autonomous mental development" "Fuwa", "Aijia No.1", "Haibao robot", "Chinese and Western medicine health management robot" and other six generations of intelligent service robots.
+                        In recent years, the laboratory has obtained tens of million yuan of scientific research resources input, including the Ministry of education, the National Natural Science Foundation of China, the major science and technology projects of Shanghai Municipal Science and Technology Commission, the 211 special project of Fudan University, and more than 30 university enterprise cooperation projects. It has produced a large number of original and independent intellectual property rights research results, and has developed "Fudan I robot for autonomous mental development" "Fuwa", "Aijia No.1", "Haibao robot", "Chinese and Western medicine health management robot" and other six generations of intelligent service robots.It has won the second prize of the 9th Shanghai Science and technology award of traditional Chinese medicine in 2019, the silver award of international invention in 2018, the special award of Romanian Academy of technology and Sciences, the grand prize of 2017 China International Industrial Exposition, the second prize of technological invention of the Ministry of education, the second prize of Wu Wenjun's artificial intelligence science and technology progress award, the third prize of Shanghai Science and technology progress award, and the 2015 Suzhou science and technology leading talent.
+                    </p>
+                </div>
+            </div>
+
+            <div class="well well-sm well-inset-2 row justify-content-center">
+                <div class="col-xl-12">
+                    <h1 class="font-weight-bold text-center">Awards</h1>
+                    <p class="lead big">
+                        We has won the second prize of the 9th Shanghai Science and technology award of traditional Chinese medicine in 2019, the silver award of international invention in 2018, the special award of Romanian Academy of technology and Sciences, the grand prize of 2017 China International Industrial Exposition, the second prize of technological invention of the Ministry of education, the second prize of Wu Wenjun's artificial intelligence science and technology progress award, the third prize of Shanghai Science and technology progress award, and the 2015 Suzhou science and technology leading talent.
                     </p>
                 </div>
             </div>
