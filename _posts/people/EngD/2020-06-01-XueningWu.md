@@ -13,7 +13,7 @@ homepage: None
 email: xueningwu@hotmail.com
 google : None
 github : None
-linkedin: Xuening Wu
+linkedin: https://www.linkedin.com/in/xuening-wu-4239564/?originalSubdomain=cn
 # 
 institution: Academy for Engineering & Technology, Fudan University
 # Academy for Engineering & Technology, Fudan University
